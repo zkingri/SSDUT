@@ -52,16 +52,14 @@
         {
 
         }
-        li {
+        ul.daohang li {
             float:left;
             padding: 0 12px;
             border-right: #e5e5e5 solid 1px;
-        }
-        li a{
             text-decoration: none;
             color: #242424;
         }
-        li a:hover
+        ul.daohang li:hover
         {
             color:#ff3b0e;
         }
@@ -72,6 +70,36 @@
         a:hover
         {
             color:#cc0000;
+        }
+        .zhuti
+        {
+            width:1000px;
+            margin:7px auto;
+        }
+        .xiadaohang
+        {
+            list-style: none;
+            width: 880px;
+            margin: 0 auto;
+            padding: 0;
+            position: relative;
+            top:5px;
+        }
+        ul.xiadaohang li{
+            float: left;
+            font-weight: bold;
+            font-size: 15px;
+            color:rgb(173, 223, 251);
+            line-height: 40px;
+            height: 40px;
+            width: 110px;
+            text-align: center;
+        }
+        ul.xiadaohang li:hover{
+            color:white;
+            border-top: 10px solid rgb(255, 59, 14);
+            position: relative;
+            top:-10px;
         }
     </style>
 </head>
@@ -87,22 +115,39 @@
 <div style="background: white;">
     <div style="position: relative;width: 1000px;margin: 0 auto;">
         <ul class="daohang">
-            <li><a href="">首页</a></li>
-            <li class=""><a href="xygk1/xygk.htm" target="_blank">学院概况</a></li>
-            <li class=""><a href="ywgg/xueyuanxinwen.htm" target="_blank">院务公告</a></li>
-            <li class=""><a href="xkyky/xkjs.htm" target="_blank">学科与科研</a></li>
-            <li class=""><a href="szdw/szgk.htm" target="_blank">师资队伍</a></li>
-            <li class=""><a>本科生培养</a></li>
-            <li class=""><a href="yjspy.htm" target="_blank">研究生培养</a></li>
-            <li class=""><a href="zsjy.htm" target="_blank">招生就业</a></li>
-            <li class=""><a href="djw.htm" target="_blank">党群工作</a></li>
-            <li class=""><a href="hzjl.htm" target="_blank">合作交流</a></li>
+            <li>首页</li>
+            <li>学院概况</li>
+            <li>院务公告</li>
+            <li>学科与科研</li>
+            <li>师资队伍</li>
+            <li>本科生培养</li>
+            <li>研究生培养</li>
+            <li>招生就业</li>
+            <li>党群工作</li>
+            <li>合作交流</li>
         </ul>
         <div class="yuyan">
             <a href="#">日本語</a>
             <a href="http://oldssdut.dlut.edu.cn/English/">ENGLISH</a>
         </div>
     </div>
+</div>
+<div class="zhuti">
+    <img src="banner.png" width="1000px" style="margin: 0;">
+    <div style="background-color:rgb(3, 110, 184);width:1000px;height: 58px;margin-top: -5px">
+        <div style="background-color: white;width:880px;height: 12px;margin: 0 auto;position: relative;top:6px"></div>
+        <ul class="xiadaohang">
+            <li style="color:white;border-top: 10px solid rgb(255, 59, 14);position: relative;top:-10px;">机构设置</li>
+            <li>人才招聘</li>
+            <li>图书资源</li>
+            <li>实验中心</li>
+            <li>实践基地</li>
+            <li>公共服务</li>
+            <li>校友工作</li>
+            <li>院长信箱</li>
+        </ul>
+    </div>
+</div>
 
     <!--<div class="a_centrebox">
         <div class="a_menu_1 a_hide" style="display:none"></div>
